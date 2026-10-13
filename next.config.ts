@@ -19,22 +19,19 @@
 
 // export default nextConfig;
 
-
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Cloudflare Pages-এর জন্য 'out' ফোল্ডার এক্সপোর্ট ও ইমেজ সেটিংস
+  // Cloudflare Pages Static Export এর জন্য আবশ্যক
   output: "export",
   images: {
     unoptimized: true,
   },
 
-  /* আপনার আগের সব সেটিংস অপরিবর্তিত */
   experimental: {
     agentFeedback: true,
   },
-  cacheComponents: true,
-  partialPrefetching: true,
+
   turbopack: {
     rules: {
       "*.css": {
