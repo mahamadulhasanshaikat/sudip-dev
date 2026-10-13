@@ -42,8 +42,8 @@ export default function Hero() {
       className="scroll-mt-24 relative min-h-[92vh] flex items-center justify-center pt-32 pb-16 sm:pt-36 sm:pb-24 lg:pt-40 lg:pb-28 px-4 sm:px-6 max-w-6xl mx-auto overflow-hidden"
     >
       {/* Precision Ambient Light Flares */}
-      <div className="absolute top-20 left-10 w-[550px] h-[340px] bg-linear-to-tr from-blue-600/15 via-indigo-500/10 to-transparent rounded-full blur-[140px] pointer-events-none -z-10" />
-      <div className="absolute top-1/3 right-10 w-[500px] h-[320px] bg-linear-to-bl from-cyan-400/15 via-blue-500/10 to-transparent rounded-full blur-[130px] pointer-events-none -z-10" />
+      <div className="absolute top-20 left-10 w-137.5 h-85 bg-linear-to-tr from-blue-600/15 via-indigo-500/10 to-transparent rounded-full blur-[140px] pointer-events-none -z-10" />
+      <div className="absolute top-1/3 right-10 w-125 h-80 bg-linear-to-bl from-cyan-400/15 via-blue-500/10 to-transparent rounded-full blur-[130px] pointer-events-none -z-10" />
 
       <div className="w-full flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-14">
         
@@ -152,7 +152,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
-          className="relative shrink-0 w-full max-w-[290px] sm:max-w-[325px] flex justify-center"
+          className="relative shrink-0 w-full max-w-72.5 sm:max-w-81.25 flex justify-center"
         >
           <div className="absolute -inset-1 bg-linear-to-b from-blue-500/20 via-indigo-500/10 to-cyan-400/20 rounded-[28px] blur-xl -z-10" />
 

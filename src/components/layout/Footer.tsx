@@ -74,7 +74,7 @@ export default function Footer() {
       <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-blue-500/40 to-transparent" />
 
       {/* Subtle Mesh Ambient Glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[150px] bg-linear-to-b from-blue-600/5 to-transparent rounded-full blur-[100px] pointer-events-none -z-10" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-175 h-37.5 bg-linear-to-b from-blue-600/5 to-transparent rounded-full blur-[100px] pointer-events-none -z-10" />
 
       <div className="max-w-6xl mx-auto px-6">
 
