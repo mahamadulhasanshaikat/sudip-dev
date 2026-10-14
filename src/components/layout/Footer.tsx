@@ -185,7 +185,7 @@ export default function Footer() {
 
           {/* 2nd Picture Style: </> Developed by MHS ↗ */}
           <Link
-            href="https://mhshaikat.pages.dev/"
+            href="https://mhstechlab.pages.dev/"
             target="_blank"
             className="group inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100/90 dark:bg-slate-800/90 border border-slate-200/90 dark:border-slate-700/80 hover:border-blue-500/50 dark:hover:border-blue-400/50 shadow-2xs transition-all"
           >
@@ -210,7 +210,7 @@ export default function Footer() {
             </span>
 
             <span className="font-mono text-xs font-bold text-slate-950 dark:text-white">
-              MHS
+              MHS Tech Lab
             </span>
 
             <ArrowUpRight

@@ -9,7 +9,6 @@ export interface PersonalInfo {
   bio: string;
   github: string;
   linkedin: string;
-  portfolio: string;
   education: {
     degree: string;
     institution: string;
@@ -100,7 +99,6 @@ export const personalInfo: PersonalInfo = {
   bio: "Dedicated Computer Science graduate specializing in enterprise backend development, cross-platform mobile architecture (Flutter), and machine learning research. Experienced in building scalable ERP modules, REST microservices, and deep learning diagnostic systems.",
   github: "https://github.com/sudipsarker14",
   linkedin: "https://linkedin.com/in/sudipsarker14",
-  portfolio: "https://sudipsarker14.github.io/",
   education: {
     degree: "B.Sc. in Computer Science & Engineering",
     institution: "Southeast University",

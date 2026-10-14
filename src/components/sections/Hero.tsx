@@ -105,15 +105,6 @@ export default function Hero() {
               <Mail size={15} />
               <span>Get In Touch</span>
             </Link>
-
-            <Link
-              href={personalInfo.portfolio}
-              target="_blank"
-              className="inline-flex items-center gap-1.5 px-4 py-3 rounded-xl border border-transparent hover:border-slate-200 dark:hover:border-slate-800 bg-slate-100/60 dark:bg-slate-900/40 text-slate-600 dark:text-slate-400 hover:text-slate-950 dark:hover:text-white text-xs sm:text-sm font-semibold transition-all"
-            >
-              <FileText size={15} />
-              <span>Resume</span>
-            </Link>
           </div>
 
           {/* 3-Column Metrics Strip (সবগুলো সংখ্যা Black & Uniform) */}
